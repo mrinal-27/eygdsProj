@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import "./index.css"; // Ensure styles are included
+import "./index.css";
 
 const Dashboard = () => {
   // Auction product data with blank images
   const [auctions] = useState([
-    { id: 1, title: "iPhone 14 Pro", description: "Brand new, 128GB", price: 58000, image: "/download.jpg" },
+    { id: 1, title: "iPhone 14 Pro", description: "Brand new, 128GB", price: 58000, image: "./images/download.jpg" },
     { id: 2, title: "Gaming Laptop", description: "RTX 3060, 16GB RAM", price: 99999, image: "" },
     { id: 3, title: "Smartwatch", description: "Water-resistant, AMOLED display", price: 12499, image: "" },
     { id: 4, title: "Wireless Headphones", description: "Noise-canceling, Bluetooth 5.0", price: 16999, image: "" },
