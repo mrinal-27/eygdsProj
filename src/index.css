@@ -151,11 +151,11 @@ button:hover {
 }
 
 .buy-now:hover {
-  background-color: #e68900;
+  background-color: green;
 }
 
 .add-to-cart:hover {
-  background-color: #ff8f00;
+  background-color: greenyellow;
 }
 
 .product-image {

@@ -61,7 +61,7 @@ const Dashboard = () => {
               </div>
               <div className="buttons">
                 <button className="buy-now">Buy Now</button>
-                <button className="add-to-cart" onClick={() => addToCart(auction)}>
+                <button id ="addtoc"className="add-to-cart" onClick={() => addToCart(auction)}>
                   Add to Cart
                 </button>
               </div>

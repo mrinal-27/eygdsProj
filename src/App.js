@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./Home";
 import Signup from "./Signup";
 import Signin from "./Signin";
 import Dashboard from "./Dashboard";
@@ -13,6 +14,7 @@ const App = () => {
         <h1>Auction App</h1>
         <nav>
           <ul>
+            <li><Link to="/Home">Home</Link></li>
             <li><Link to="/signup">Signup</Link></li>
             <li><Link to="/signin">Signin</Link></li>
             <li><Link to="/dashboard">Dashboard</Link></li>
@@ -22,6 +24,7 @@ const App = () => {
         </nav>
       </div>
       <Routes>
+        <Route path="/Home" element={<Home/>}/>
         <Route path="/signup" element={<Signup />} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/dashboard" element={<Dashboard />} />
