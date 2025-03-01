@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Signin = () => {
   return (
     <div className="container">
@@ -7,7 +8,7 @@ const Signin = () => {
       <form>
         <input type="text" placeholder="Username" required />
         <input type="password" placeholder="Password" required />
-        <button type="submit">Signin</button>
+        <input type="submit"></input>
       </form>
     </div>
   );
