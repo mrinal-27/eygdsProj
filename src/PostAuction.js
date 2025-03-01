@@ -5,6 +5,7 @@ const PostAuction = () => {
     <div className="container">
       <h2>Post Auction</h2>
       <form>
+        <img src="" alt="product"></img>
         <input type="text" placeholder="Auction Title" required />
         <input type="text" placeholder="Description" required />
         <input type="number" placeholder="Starting Price" required />
